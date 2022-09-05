@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* font */
+@font-face {
+    font-family: "AnekTelugu";
+    src: url("../src/font/AnekTelugu-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: "Nanum_bold";
+    src: url("../src/font/NanumGothic-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Nanum_regular";
+    src: url("../src/font/NanumGothic-Regular.ttf");
+}
+
+* {
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Nanum_bold";
+}
+
+.main_box {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0.2rem 0.2rem 1rem #9e9e9e;
+    height: 100%;
+    background: white;
+}
+.image {
+    width:60px;
+    height: 60px;
+    border-radius: 90%;
+}
+.name {
+    font-size: 0.9rem;
+    color: #1b1b1b;
+    font-weight: 600;
+    
+}
+.article {
+    display: flex;
+    align-items: center;
+    margin-top: 1.3rem;
+    gap: 0.5rem;
+    font-family: "Nanum_regular";
+}
+.data {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    color: #616161;
+}
+h3 {
+    font-size: 1.2rem;
+    font-family: "Nanum_bold";
+}
+.btn {
+    padding: 0.8rem 5rem;
+    background:linear-gradient(to right,#ff80ab,#ff4081,#f50057 );
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
